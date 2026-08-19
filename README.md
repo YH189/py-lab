@@ -1,4 +1,4 @@
-# Py Lab
+# Py-Lab
 
 A collection of self-built Python projects.
 
