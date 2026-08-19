@@ -11,7 +11,7 @@ def caesar(text,shift, encypt=True, Strict = False):
     if not is_valid_text(text):
         return 'Invalid text value'
     if Strict and not text.replace(' ','').isalpha():
-        return 'Text contains invalid characters in Strict mode'
+        return 'Text contains invalid characters in strict mode'
     
     alphabet = 'abcdefghijklmnopqrstuvwxyz'
 
