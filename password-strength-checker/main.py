@@ -22,6 +22,7 @@ else:
 
 # Check for uppercase letters
 if any(char.isupper() for char in password):
+    print('Uppercase check passed.')
     score += 1
 else:
     print('Password should contain at least 1 capital letter.')
