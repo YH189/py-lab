@@ -29,6 +29,7 @@ else:
 
 # Check for lowercase letters
 if any(char.islower() for char in password):
+    print('Lowercase check passed.')
     score += 1
 else:
     print('Password should contain at least 1 small letter.')
