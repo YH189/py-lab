@@ -14,6 +14,7 @@ else:
 
 # Check for numbers
 if any(char.isdigit() for char in password):
+    print('Integer check passed.')
     score += 1
 else:
     print('Your password should have an integer.')
