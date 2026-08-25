@@ -7,7 +7,7 @@ def is_valid_text(text):
 def caesar(text,shift, encypt=True, Strict = False):
 
     if not is_valid_shift(shift):
-        return 'Invalid Shift value'
+        return 'Invalid shift value'
     if not is_valid_text(text):
         return 'Invalid text value'
     if Strict and not text.replace(' ','').isalpha():
