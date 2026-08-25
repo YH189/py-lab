@@ -14,7 +14,6 @@ else:
 
 # Check for numbers
 if any(char.isdigit() for char in password):
-    print('Integer check passed.')
     score += 1
 else:
     print('Your password should have an integer.')
@@ -22,14 +21,12 @@ else:
 
 # Check for uppercase letters
 if any(char.isupper() for char in password):
-    print('Uppercase check passed.')
     score += 1
 else:
     print('Password should contain at least 1 capital letter.')
 
 # Check for lowercase letters
 if any(char.islower() for char in password):
-    print('Lowercase check passed.')
     score += 1
 else:
     print('Password should contain at least 1 small letter.')
