@@ -23,13 +23,13 @@ else:
 if any(char.isupper() for char in password):
     score += 1
 else:
-    print('Password should contain at least 1 capital letter.')
+    print('Password should contain minimum 1 capital letter.')
 
 # Check for lowercase letters
 if any(char.islower() for char in password):
     score += 1
 else:
-    print('Password should contain at least 1 small letter.')
+    print('Password should contain minimum 1 small letter.')
 
 # Check for special characters
 if any(char in string.punctuation for char in password):
