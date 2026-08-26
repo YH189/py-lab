@@ -12,7 +12,7 @@ A command-line utility written in Python that evaluates password security based 
 
 ```text
 ------------------ Password Strength Checker ------------------
-Enter a password to check: Secret@123
+Enter a password to check: Dr@garo0963
 You have passed the minimum length criteria.
 Special character check passed.
 Final Score: 5
