@@ -6,7 +6,7 @@ score = 0
 
 # Check length criteria
 if len(password) >= 8:
-    print('You have passed the minimum length criteria.')
+    print('Minimum length criteria Passed.')
     score += 1
 else:
     print('You should have at least 8 characters.')
