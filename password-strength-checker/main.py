@@ -36,6 +36,6 @@ if any(char in string.punctuation for char in password):
     print('Special character check passed.')
     score += 1
 else:
-    print('Password should contain at least 1 special character (e.g., @, #, $).')
+    print('Password should contain at least 1 special character e.g., @, #, $.')
 
 print(f'Final Score: {score}')
