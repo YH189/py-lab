@@ -22,7 +22,7 @@ def caesar(text,shift, encypt=True, Strict = False):
     translation_table = str.maketrans(alphabet+alphabet.upper(), shifted_alphabet+shifted_alphabet.upper())
     return text.translate(translation_table)
 
-user_text = input('Enter the message:')
+user_text = input('Enter the message for Encryption or Decryption:')
 user_shift = int(input('Enter a shift value from 1-25:'))
 user_mode = input('Encrypt or Decrypt (E/d):')
 should_encrypt = user_mode == 'E'
